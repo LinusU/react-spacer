@@ -2,6 +2,8 @@
 
 An element to repesent space between other elements, for use in flexbox layouts.
 
+Works both on the web and in React Native.
+
 ## Installation
 
 ```sh
