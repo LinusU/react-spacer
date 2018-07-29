@@ -1,8 +1,8 @@
 import { ReactNode, StatelessComponent } from 'react'
 
 declare interface SpacerProps {
-  width?: string
-  height?: string
+  width?: string | number
+  height?: string | number
   grow?: string | number
   shrink?: string | number
   children?: ReactNode

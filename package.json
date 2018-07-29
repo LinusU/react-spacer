@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "repository": "LinusU/react-spacer",
+  "scripts": {
+    "test": "standard && node test"
+  },
   "peerDependencies": {
     "react": ">=16"
+  },
+  "devDependencies": {
+    "proxyquire": "^2.0.1",
+    "standard": "^11.0.1"
   }
 }
